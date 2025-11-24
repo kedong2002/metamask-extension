@@ -298,6 +298,9 @@
   "addNewSolanaAccountLabel": {
     "message": "Solana hesabı"
   },
+  "addNewTronAccountLabel": {
+    "message": "Tron hesabı"
+  },
   "addNft": {
     "message": "NFT ekleyin"
   },
@@ -436,6 +439,9 @@
   "alertAccountTypeUpgradeTitle": {
     "message": "Hesap türü"
   },
+  "alertActionBurnAddress": {
+    "message": "Varlıklar Yakım Adresine Gönderiliyor"
+  },
   "alertActionBuyWithNativeCurrency": {
     "message": "$1 Al"
   },
@@ -462,6 +468,9 @@
   },
   "alertMessageAddressTrustSignalMalicious": {
     "message": "Bu talebi onaylarsanız muhtemelen varlıklarınızı bir dolandırıcıya kaptıracaksınız."
+  },
+  "alertMessageBurnAddress": {
+    "message": "Varlıklarınızı bir yakım adresine gönderiyorsunuz. Devam ederseniz varlıklarınızı kaybedeceksiniz."
   },
   "alertMessageChangeInSimulationResults": {
     "message": "Bu işlem için tahmin edilen değişiklikler güncellendi. Devam etmeden önce dikkatle inceleyin."
@@ -918,6 +927,9 @@
   "bridgeApprovalWarning": {
     "message": "$1 $2 için erişim izni veriyorsunuz. Sözleşme başka hiçbir fona erişim sağlamayacak."
   },
+  "bridgeApprovalWarningForHardware": {
+    "message": "Köprü amacıyla $1 $2 için erişim izni vermeniz ve ardından $3 alanı için köprüyü onaylamanız gerekecek. Bu işlem için iki ayrı onay gerekecek."
+  },
   "bridgeBlockExplorerLinkCopied": {
     "message": "Blok gezgini bağlantısı kopyalandı!"
   },
@@ -964,6 +976,26 @@
   },
   "bridgeNoMMFee": {
     "message": "MM ücreti yok"
+  },
+  "bridgePoints": {
+    "message": "Tah. puanlar",
+    "description": "Label for estimated points that can be earned from a bridge or swap"
+  },
+  "bridgePoints_couldntLoad": {
+    "message": "Yüklenemedi",
+    "description": "Text shown in rewards badge when points couldn't be loaded"
+  },
+  "bridgePoints_tooltip": {
+    "message": "Puan",
+    "description": "Tooltip title for points"
+  },
+  "bridgePoints_tooltip_content_1": {
+    "message": "Takas, köprü ve sürekli vadeli işlem sözleşmeleri gibi işlemleri tamamladığınızda puan toplar ve MetaMask Ödülleri kazanırsınız.",
+    "description": "First part of tooltip content explaining rewards points"
+  },
+  "bridgePoints_tooltip_content_2": {
+    "message": "Bu değerin bir tahmin olduğunu ve işlem tamamlandığında kesinleşeceğini unutmayın. Puanların Ödüller bakiyenizde onaylanması 1 saate kadar sürebilir.",
+    "description": "Second part of tooltip content explaining how points are calculated"
   },
   "bridgePriceImpact": {
     "message": "Fiyat etkisi"
@@ -1237,6 +1269,9 @@
   "comboNoOptions": {
     "message": "Hiçbir seçenek bulunamadı",
     "description": "Default text shown in the combo field dropdown if no options."
+  },
+  "completed": {
+    "message": "Tamamlandı"
   },
   "concentratedSupplyDistributionDescription": {
     "message": "Token arzının çoğunluğu en fazla token sahibi olanlar tarafından tutulur ve merkezi fiyat manipülasyonu riski teşkil eder"
@@ -1627,6 +1662,14 @@
   "create": {
     "message": "Oluştur"
   },
+  "createMultichainAccountButton": {
+    "message": "Hesap ekle",
+    "description": "Name of a button used on multichain account related pages for triggering the account creation process."
+  },
+  "createMultichainAccountButtonLoading": {
+    "message": "Hesap ekleniyor...",
+    "description": "Name of a button in loading state, used on multichain account related pages for the account creation process."
+  },
   "createNewAccountHeader": {
     "message": "Yeni bir hesap oluştur"
   },
@@ -1684,6 +1727,9 @@
   },
   "currencySymbolDefinition": {
     "message": "Bu ağın para birimi için görüntülenen sembol."
+  },
+  "current": {
+    "message": "Mevcut"
   },
   "currentAccountNotConnected": {
     "message": "Mevcut hesabınız bağlı değil"
@@ -2271,6 +2317,12 @@
   "enableFromSettings": {
     "message": " Ayarlardan etkinleştirin."
   },
+  "enableSmartContractAccount": {
+    "message": "Akıllı hesap kullan"
+  },
+  "enableSmartContractAccountDescription": {
+    "message": "Desteklenen ağlarda daha hızlı işlemler, daha düşük ağ ücretleri ve daha fazla güvenlik."
+  },
   "enableSnap": {
     "message": "Etkinleştir"
   },
@@ -2442,6 +2494,9 @@
   "estimatedFeeTooltip": {
     "message": "Ağ üzerinde işlemi gerçekleştirmek için ödenen tutar."
   },
+  "estimatedPointsRow": {
+    "message": "Tah. puanlar"
+  },
   "ethGasPriceFetchWarning": {
     "message": "Ana gaz tahmini hizmeti olarak sunulan yedek gaz fiyatı şu anda kullanılamıyor."
   },
@@ -2601,6 +2656,10 @@
   "function": {
     "message": "İşlev: $1"
   },
+  "fundYourWallet": {
+    "message": "Cüzdanınıza para ekleyin",
+    "description": "Title for the balance empty state component encouraging users to add funds"
+  },
   "fundingMethod": {
     "message": "Para yatırma yöntemi"
   },
@@ -2656,6 +2715,30 @@
   "gasUsed": {
     "message": "Kullanılan gaz"
   },
+  "gatorPermissionAnnualFrequency": {
+    "message": "Yıllık",
+    "description": "Time period for annual recurring permissions redemption"
+  },
+  "gatorPermissionCustomFrequency": {
+    "message": "Özel",
+    "description": "Time period for custom recurring permissions redemption"
+  },
+  "gatorPermissionDailyFrequency": {
+    "message": "Günlük",
+    "description": "Time period for daily recurring permissions redemption"
+  },
+  "gatorPermissionMonthlyFrequency": {
+    "message": "Aylık",
+    "description": "Time period for monthly recurring permissions redemption"
+  },
+  "gatorPermissionWeeklyFrequency": {
+    "message": "Haftalık",
+    "description": "Time period for weekly recurring permissions redemption"
+  },
+  "gatorPermissionsRevoke": {
+    "message": "İptal",
+    "description": "Label for the revoke button of a gator permission"
+  },
   "general": {
     "message": "Genel"
   },
@@ -2673,6 +2756,10 @@
   },
   "getTheNewestFeatures": {
     "message": "En yeni özelliklere sahip olun"
+  },
+  "getYourWalletReadyToUseWeb3": {
+    "message": "Cüzdanınızı web3 kullanmaya hazır hale getirin",
+    "description": "Subtitle text for the balance empty state component explaining the purpose of adding funds"
   },
   "goToSite": {
     "message": "Siteye git"
@@ -3378,6 +3465,9 @@
   "marketCap": {
     "message": "Piyasa değeri"
   },
+  "marketCapFDV": {
+    "message": "Piyasa değeri (FDV)"
+  },
   "marketDetails": {
     "message": "Piyasa bilgileri"
   },
@@ -3764,6 +3854,9 @@
   },
   "networkNameTestnet": {
     "message": "Test Ağı"
+  },
+  "networkNameTron": {
+    "message": "Tron"
   },
   "networkNameZkSyncEra": {
     "message": "zkSync Era"
@@ -4274,6 +4367,9 @@
   "onboardingMetametricsDescription": {
     "message": "Bu izinleri talep etmek istiyoruz. Dilediğiniz zaman vazgeçebilir veya kullanım verilerinizi silebilirsiniz."
   },
+  "onboardingMetametricsTitle": {
+    "message": "MetaMask'in iyileştirilmesine yardımcı olun"
+  },
   "onboardingOptionIcon": {
     "message": "$1 simgesi",
     "description": "$1 is the icon name"
@@ -4377,6 +4473,9 @@
   "padlock": {
     "message": "Asma Kilit"
   },
+  "paidByMetaMask": {
+    "message": "MetaMask tarafından ödenir"
+  },
   "participateInMetaMetrics": {
     "message": "MetaMetrics'e katıl"
   },
@@ -4435,6 +4534,9 @@
   "pendingTransactionAlertMessageHyperlink": {
     "message": "Bir işlemin nasıl iptal edileceğini veya hızlandırılacağını öğrenin.",
     "description": "The text for the hyperlink in the pending transaction alert message"
+  },
+  "percentChange": {
+    "message": "Yüzde değişikliği"
   },
   "permissionDetails": {
     "message": "İzin ayrıntıları"
@@ -4854,6 +4956,12 @@
   "pushNotificationPositionLiquidatedTitle": {
     "message": "Pozisyon likidasyona uğradı"
   },
+  "pushNotificationShieldLearnMoreCta": {
+    "message": "Daha fazla bilgi edin"
+  },
+  "pushNotificationShieldUpdatePaymentCta": {
+    "message": "Ödemeyi güncelle"
+  },
   "pushNotificationStopLossTriggeredDescriptionLong": {
     "message": "$1 uzun pozisyonunuz zararda durdur noktanızda kapandı.",
     "description": "$1 is the asset symbol"
@@ -5266,6 +5374,124 @@
   "reward": {
     "message": "Ödül"
   },
+  "rewardsAuthFailDescription": {
+    "message": "Bu hesabın ödüller programıyla doğrulanması sırasında bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+  },
+  "rewardsAuthFailTitle": {
+    "message": "Bilinmeyen Hata."
+  },
+  "rewardsErrorMessagesAccountAlreadyRegistered": {
+    "message": "Bu hesap zaten başka bir Ödüller profili ile kayıtlı. Devam etmek için lütfen hesap değiştirin."
+  },
+  "rewardsErrorMessagesFailedToClaimReward": {
+    "message": "Ödül alınamadı. Lütfen kısa süre sonra tekrar deneyin."
+  },
+  "rewardsErrorMessagesRequestRejected": {
+    "message": "Talebi reddettiniz."
+  },
+  "rewardsErrorMessagesServiceNotAvailable": {
+    "message": "Hizmet şu anda kullanılamıyor. Lütfen kısa süre sonra tekrar deneyin."
+  },
+  "rewardsErrorMessagesSomethingWentWrong": {
+    "message": "Bir hata oluştu. Lütfen kısa süre sonra tekrar deneyin."
+  },
+  "rewardsLinkAccount": {
+    "message": "Hesap ekle"
+  },
+  "rewardsLinkAccountError": {
+    "message": "Hesap eklenemedi"
+  },
+  "rewardsOnboardingIntroDescription": {
+    "message": "Aktivitelerinizden puan kazanın. \nSeviyelerde ilerleyerek ödüllerin kilidini açın."
+  },
+  "rewardsOnboardingIntroGeoCheckFailedDescription": {
+    "message": "Ülkenizin ödüller programına katılıma izin verip vermediğini belirleyemiyoruz. Lütfen bağlantınızı kontrol edin ve tekrar deneyin."
+  },
+  "rewardsOnboardingIntroGeoCheckFailedTitle": {
+    "message": "Katılım uygunluğu belirlenemiyor"
+  },
+  "rewardsOnboardingIntroGeoCheckRetry": {
+    "message": "Tekrar Dene"
+  },
+  "rewardsOnboardingIntroHardwareWalletDescription": {
+    "message": "Donanım cüzdanı hesapları henüz ödül almaya uygun değil. Devam etmek için lütfen farklı bir hesaba geçin."
+  },
+  "rewardsOnboardingIntroHardwareWalletTitle": {
+    "message": "Hesap desteklenmiyor"
+  },
+  "rewardsOnboardingIntroRewardsAuthFailRetry": {
+    "message": "Tekrar Dene"
+  },
+  "rewardsOnboardingIntroStepConfirm": {
+    "message": "250 puan alın"
+  },
+  "rewardsOnboardingIntroStepSkip": {
+    "message": "Şimdi değil"
+  },
+  "rewardsOnboardingIntroTitle": {
+    "message": "Ödüller burada"
+  },
+  "rewardsOnboardingIntroUnsupportedRegionDescription": {
+    "message": "Ödüller henüz bölgenizde desteklenmiyor. Erişimi genişletmek için çalışıyoruz, bu yüzden daha sonra tekrar kontrol edin."
+  },
+  "rewardsOnboardingIntroUnsupportedRegionTitle": {
+    "message": "Bölge desteklenmiyor"
+  },
+  "rewardsOnboardingStep1Description": {
+    "message": "MetaMask'te yaptığınız her takas ve sürekli vadeli işlem sizi ödüllere yaklaştırır. Hesaplarınızı ekleyin ve puanlarınızı takip edin."
+  },
+  "rewardsOnboardingStep1Title": {
+    "message": "Her işlemde puan kazanın"
+  },
+  "rewardsOnboardingStep2Description": {
+    "message": "Belirli puanlara ulaştığınızda, sürekli vadeli işlem ücretlerinde %50 indirim, özel token’lar ve ücretsiz MetaMask Metal Kart gibi avantajlar kazanabilirsiniz."
+  },
+  "rewardsOnboardingStep2Title": {
+    "message": "Daha büyük avantajlar için seviye yükseltin"
+  },
+  "rewardsOnboardingStep4LegalDisclaimer2": {
+    "message": "Ek Kullanım Şartları ve Gizlilik Bildirimi"
+  },
+  "rewardsOnboardingStep4LegalDisclaimer3": {
+    "message": ". Sizi otomatik olarak ödüllendirmek için zincir üzeri etkinliğinizi takip edeceğiz –"
+  },
+  "rewardsOnboardingStep4LegalDisclaimer4": {
+    "message": "daha fazla bilgi"
+  },
+  "rewardsOnboardingStep4OptInError": {
+    "message": "Katılım başarısız oldu"
+  },
+  "rewardsOnboardingStep4ReferralCodeError": {
+    "message": "Geçersiz referans kodu"
+  },
+  "rewardsOnboardingStep4ReferralCodeInput": {
+    "message": "Bir referans kodu kullanarak 250 puan kazanın"
+  },
+  "rewardsOnboardingStep4ReferralCodePlaceholder": {
+    "message": "Referans kodu (isteğe bağlı)"
+  },
+  "rewardsOnboardingStep4ReferralCodeUnknownError": {
+    "message": "Referans kodu doğrulanamadı."
+  },
+  "rewardsOnboardingStep4ReferralCodeUnknownErrorDescription": {
+    "message": "Bağlantınızı kontrol edin ve tekrar deneyin."
+  },
+  "rewardsOnboardingStep4Title": {
+    "message": "Kaydolduğunuzda 250 puan kazanırsınız!"
+  },
+  "rewardsOnboardingStep4TitleWithReferralCode": {
+    "message": "Bir kodla kaydolduğunuzda 500 puan kazanırsınız!"
+  },
+  "rewardsOnboardingStepConfirm": {
+    "message": "Sonraki"
+  },
+  "rewardsOnboardingStepOptIn": {
+    "message": "Puanları al"
+  },
+  "rewardsPointsBalance_couldntLoad": {
+    "message": "Yüklenemedi",
+    "description": "Text shown when points balance couldn't be loaded"
+  },
   "rpcNameOptional": {
     "message": "RPC Adı (İsteğe Bağlı)"
   },
@@ -5584,14 +5810,53 @@
   "shieldClaimInvalidEmail": {
     "message": "Lütfen geçerli bir e-posta adresi girin"
   },
+  "shieldClaimNetwork": {
+    "message": "Ağ seç"
+  },
+  "shieldClaimPersonalDetails": {
+    "message": "Kişisel bilgiler"
+  },
   "shieldClaimReimbursementWalletAddress": {
     "message": "Geri ödeme için cüzdan adresi"
   },
   "shieldClaimReimbursementWalletAddressHelpText": {
     "message": "Lütfen bunun gizliliği ihlal edilmiş bir cüzdan olmadığından emin olun."
   },
+  "shieldClaimSelectAccount": {
+    "message": "Bir hesap seç"
+  },
+  "shieldClaimSelectNetwork": {
+    "message": "Ağ seç"
+  },
+  "shieldClaimStatusApproved": {
+    "message": "Onaylandı"
+  },
+  "shieldClaimStatusRejected": {
+    "message": "Reddedildi"
+  },
+  "shieldClaimStatusSubmitted": {
+    "message": "Gönderildi"
+  },
   "shieldClaimSubmit": {
     "message": "Bir talep gönder"
+  },
+  "shieldCoverageAlertMessagePausedAcknowledgeButton": {
+    "message": "Ödeme yöntemini güncelle"
+  },
+  "shieldPaused": {
+    "message": "Duraklatıldı"
+  },
+  "shieldPaymentPausedActionCardPayment": {
+    "message": "Güncelle"
+  },
+  "shieldPaymentPausedActionCryptoPayment": {
+    "message": "Güncelle"
+  },
+  "shieldPaymentPausedActionUnexpectedError": {
+    "message": "Görüntüle"
+  },
+  "shieldPaymentPausedDescriptionUnexpectedError": {
+    "message": "Beklenmedik bir hata oluştu."
   },
   "shieldPlanAnnual": {
     "message": "Yıllık"
@@ -5610,6 +5875,10 @@
     "message": "$1/ay",
     "description": "The $1 is the price of the monthly plan"
   },
+  "shieldPlanNoFundsOneToken": {
+    "message": "$1 yetersiz",
+    "description": "$1 is the one token supported"
+  },
   "shieldPlanPayWith": {
     "message": "ile öde"
   },
@@ -5622,6 +5891,9 @@
   },
   "shieldPlanPaymentTitle": {
     "message": "Ödeme yöntemini değiştir"
+  },
+  "shieldPlanSave": {
+    "message": "%17 tasarruf et"
   },
   "shieldPlanSelectToken": {
     "message": "Bir token seçin"
@@ -5657,8 +5929,17 @@
   "shieldTxMembershipBillingDetailsPaymentMethod": {
     "message": "Ödeme yöntemi"
   },
+  "shieldTxMembershipErrorPausedCardAction": {
+    "message": "Kart bilgilerini güncelle"
+  },
   "shieldTxMembershipErrorPausedCardTooltip": {
     "message": "Ödemeniz reddedildi. Koruma kapsamınızı sürdürmek için lütfen ödeme yönteminizi güncelleyin."
+  },
+  "shieldTxMembershipErrorPausedCryptoInsufficientFundsAction": {
+    "message": "Fon ekle"
+  },
+  "shieldTxMembershipErrorPausedUnexpectedAction": {
+    "message": "Destek ile iletişime geçin"
   },
   "shieldTxMembershipErrorUpdateCard": {
     "message": "Kart bilgilerini güncelle"
@@ -5774,6 +6055,9 @@
   "simulationDetailsOutgoingHeading": {
     "message": "Gönderdiğiniz:"
   },
+  "simulationDetailsOutgoingHeadingSent": {
+    "message": "Gönderdiğiniz"
+  },
   "simulationDetailsRevokeSetApprovalForAllDesc": {
     "message": "Bir başkasının sizin hesabınızdan NFT çekme iznini kaldırıyorsunuz."
   },
@@ -5846,6 +6130,9 @@
   },
   "siweURI": {
     "message": "URL Adresi"
+  },
+  "skip": {
+    "message": "Atla"
   },
   "skipDeepLinkInterstitial": {
     "message": "Derin bağlantıları açarken geçiş ekranını gösterme"
@@ -6218,6 +6505,9 @@
   },
   "spendingCaps": {
     "message": "Harcama üst limitleri"
+  },
+  "srpAlreadyImportedError": {
+    "message": "Bu Gizli Kurtarma İfadesi zaten içe aktarıldı."
   },
   "srpDetailsDescription": {
     "message": "G\nAnahtar cümle veya kurtarma ifadesi olarak da anılan Gizli Kurtarma İfadesi, kripto cüzdanınıza erişiminizi ve kontrolü sağlayan bir sözcük dizisidir. Cüzdanınızı MetaMask'e taşımak için bu ifadeye ihtiyacınız olur."
@@ -6662,6 +6952,9 @@
   "swapGasFeesSplit": {
     "message": "Önceki ekrandaki gaz ücretleri bu iki işlem arasında bölünmüştür."
   },
+  "swapGasFeesSponsored": {
+    "message": "MetaMask tarafından ödenir"
+  },
   "swapGasFeesSummary": {
     "message": "Gaz ücretleri, $1 ağında işlemleri gerçekleştiren kripto madencilerine ödenir. MetaMask gaz ücretlerinden herhangi bir kazanç elde etmemektedir.",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
@@ -7035,6 +7328,10 @@
   "tokenContractError": {
     "message": "Bu adres bir token sözleşmesi adresi. Bu adrese token gönderirseniz bunları kaybedersiniz."
   },
+  "tokenCount": {
+    "message": "token",
+    "description": "is number of tokens used for token transfers (singular form)"
+  },
   "tokenDecimal": {
     "message": "Token ondalığı"
   },
@@ -7075,6 +7372,10 @@
   },
   "tokens": {
     "message": "Token'lar"
+  },
+  "tokensCount": {
+    "message": "token'lar",
+    "description": "is the count of tokens used for token transfers (plural form)"
   },
   "tokensFoundTitle": {
     "message": "$1 yeni token bulundu",
@@ -7201,6 +7502,18 @@
   },
   "transferRequest": {
     "message": "Transfer talebi"
+  },
+  "tronBandwidth": {
+    "message": "Bant genişliği"
+  },
+  "tronDailyResources": {
+    "message": "Günlük kaynak"
+  },
+  "tronDailyResourcesDescription": {
+    "message": "Bu stake ettiğiniz TRX'e göre günlük kullanım izninizdir. Günlük olarak ücretsiz 600 bant genişliği alırsınız."
+  },
+  "tronEnergy": {
+    "message": "Enerji"
   },
   "troubleConnectingToLedgerU2FOnFirefox": {
     "message": "Ledger'ınıza bağlanırken sorun yaşıyoruz. $1",
@@ -7513,6 +7826,9 @@
   "visitWebSite": {
     "message": "Web sitemizi ziyaret et"
   },
+  "volume": {
+    "message": "Hacim"
+  },
   "wallet": {
     "message": "Cüzdan"
   },
@@ -7580,6 +7896,9 @@
   "websites": {
     "message": "web siteleri",
     "description": "Used in the 'permission_rpc' message."
+  },
+  "weekly": {
+    "message": "haftalık"
   },
   "welcomeBack": {
     "message": "Tekrar hoş geldiniz"

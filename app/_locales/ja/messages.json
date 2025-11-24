@@ -298,6 +298,9 @@
   "addNewSolanaAccountLabel": {
     "message": "Solanaアカウント"
   },
+  "addNewTronAccountLabel": {
+    "message": "Tronアカウント"
+  },
   "addNft": {
     "message": "NFTを追加"
   },
@@ -436,6 +439,9 @@
   "alertAccountTypeUpgradeTitle": {
     "message": "アカウントタイプ"
   },
+  "alertActionBurnAddress": {
+    "message": "バーンアドレスに送金しようとしています"
+  },
   "alertActionBuyWithNativeCurrency": {
     "message": "$1を購入"
   },
@@ -462,6 +468,9 @@
   },
   "alertMessageAddressTrustSignalMalicious": {
     "message": "この要求を承認した場合、詐欺師に資産を奪われてしまう可能性が高いでしょう。"
+  },
+  "alertMessageBurnAddress": {
+    "message": "資産をバーンアドレスに送金しようとしています。続行すると、資産が失われます。"
   },
   "alertMessageChangeInSimulationResults": {
     "message": "このトランザクションの予測される増減額が更新されました。先に進む前によく確認してください。"
@@ -918,6 +927,9 @@
   "bridgeApprovalWarning": {
     "message": "$1 $2へのアクセスを許可しようとしています。このコントラクトが他の資金にアクセスすることはありません。"
   },
+  "bridgeApprovalWarningForHardware": {
+    "message": "ブリッジ用に$1 $2へのアクセスを許可し、$3へのブリッジを承認する必要があります。これには2回の承認が必要です。"
+  },
   "bridgeBlockExplorerLinkCopied": {
     "message": "ブロックエクスプローラーのリンクをコピーしました！"
   },
@@ -964,6 +976,26 @@
   },
   "bridgeNoMMFee": {
     "message": "MM手数料なし"
+  },
+  "bridgePoints": {
+    "message": "推定ポイント数",
+    "description": "Label for estimated points that can be earned from a bridge or swap"
+  },
+  "bridgePoints_couldntLoad": {
+    "message": "読み込ませんでした",
+    "description": "Text shown in rewards badge when points couldn't be loaded"
+  },
+  "bridgePoints_tooltip": {
+    "message": "ポイント",
+    "description": "Tooltip title for points"
+  },
+  "bridgePoints_tooltip_content_1": {
+    "message": "ポイントは、スワップ、ブリッジ、パーペチュアル取引など、トランザクションを完了したことによるMetaMaskリワードの獲得状況を示します。",
+    "description": "First part of tooltip content explaining rewards points"
+  },
+  "bridgePoints_tooltip_content_2": {
+    "message": "この金額は見積もりであり、トランザクション完了後に確定されることをご留意ください。ポイントがリワード残高で確定されるまでに最長1時間かかる場合があります。",
+    "description": "Second part of tooltip content explaining how points are calculated"
   },
   "bridgePriceImpact": {
     "message": "プライスインパクト"
@@ -1237,6 +1269,9 @@
   "comboNoOptions": {
     "message": "オプションが見つかりません",
     "description": "Default text shown in the combo field dropdown if no options."
+  },
+  "completed": {
+    "message": "完了"
   },
   "concentratedSupplyDistributionDescription": {
     "message": "供給されているトークンの大部分が上位トークン保有者によって保有されているため、中央集権型の価格操作の危険があります。"
@@ -1627,6 +1662,14 @@
   "create": {
     "message": "作成"
   },
+  "createMultichainAccountButton": {
+    "message": "アカウントを追加",
+    "description": "Name of a button used on multichain account related pages for triggering the account creation process."
+  },
+  "createMultichainAccountButtonLoading": {
+    "message": "アカウントを追加しています...",
+    "description": "Name of a button in loading state, used on multichain account related pages for the account creation process."
+  },
   "createNewAccountHeader": {
     "message": "新しいアカウントの作成"
   },
@@ -1684,6 +1727,9 @@
   },
   "currencySymbolDefinition": {
     "message": "このネットワークの通貨に対して表示されるティッカーシンボル。"
+  },
+  "current": {
+    "message": "現在"
   },
   "currentAccountNotConnected": {
     "message": "現在のアカウントは接続されていません"
@@ -2271,6 +2317,12 @@
   "enableFromSettings": {
     "message": " 設定で有効にします。"
   },
+  "enableSmartContractAccount": {
+    "message": "スマートアカウントを使用する"
+  },
+  "enableSmartContractAccountDescription": {
+    "message": "対応ネットワーク上で、より高速なトランザクション、お得なネットワーク手数料、強化されたセキュリティをご利用いただけます。"
+  },
   "enableSnap": {
     "message": "有効にする"
   },
@@ -2442,6 +2494,9 @@
   "estimatedFeeTooltip": {
     "message": "ネットワーク上でのトランザクションの処理に支払われた金額です。"
   },
+  "estimatedPointsRow": {
+    "message": "推定ポイント数"
+  },
   "ethGasPriceFetchWarning": {
     "message": "現在メインのガスの見積もりサービスが利用できないため、バックアップのガス価格が提供されています。"
   },
@@ -2601,6 +2656,10 @@
   "function": {
     "message": "機能: $1"
   },
+  "fundYourWallet": {
+    "message": "ウォレットへの入金",
+    "description": "Title for the balance empty state component encouraging users to add funds"
+  },
   "fundingMethod": {
     "message": "入金方法"
   },
@@ -2656,6 +2715,30 @@
   "gasUsed": {
     "message": "ガス使用量"
   },
+  "gatorPermissionAnnualFrequency": {
+    "message": "年次",
+    "description": "Time period for annual recurring permissions redemption"
+  },
+  "gatorPermissionCustomFrequency": {
+    "message": "カスタム",
+    "description": "Time period for custom recurring permissions redemption"
+  },
+  "gatorPermissionDailyFrequency": {
+    "message": "日次",
+    "description": "Time period for daily recurring permissions redemption"
+  },
+  "gatorPermissionMonthlyFrequency": {
+    "message": "月次",
+    "description": "Time period for monthly recurring permissions redemption"
+  },
+  "gatorPermissionWeeklyFrequency": {
+    "message": "週次",
+    "description": "Time period for weekly recurring permissions redemption"
+  },
+  "gatorPermissionsRevoke": {
+    "message": "取り消す",
+    "description": "Label for the revoke button of a gator permission"
+  },
   "general": {
     "message": "一般"
   },
@@ -2673,6 +2756,10 @@
   },
   "getTheNewestFeatures": {
     "message": "最新機能を入手"
+  },
+  "getYourWalletReadyToUseWeb3": {
+    "message": "Web3を使用できるようにウォレットを準備しましょう",
+    "description": "Subtitle text for the balance empty state component explaining the purpose of adding funds"
   },
   "goToSite": {
     "message": "サイトに移動"
@@ -3378,6 +3465,9 @@
   "marketCap": {
     "message": "時価総額"
   },
+  "marketCapFDV": {
+    "message": "時価総額 (FDV)"
+  },
   "marketDetails": {
     "message": "マーケットの詳細"
   },
@@ -3764,6 +3854,9 @@
   },
   "networkNameTestnet": {
     "message": "テストネット"
+  },
+  "networkNameTron": {
+    "message": "Tron"
   },
   "networkNameZkSyncEra": {
     "message": "zkSync Era"
@@ -4274,6 +4367,9 @@
   "onboardingMetametricsDescription": {
     "message": "これらのアクセス許可を付与してください。使用状況データはいつでもオプトアウトまたは削除できます。"
   },
+  "onboardingMetametricsTitle": {
+    "message": "MetaMaskの改善にご協力ください"
+  },
   "onboardingOptionIcon": {
     "message": "$1アイコン",
     "description": "$1 is the icon name"
@@ -4377,6 +4473,9 @@
   "padlock": {
     "message": "南京錠"
   },
+  "paidByMetaMask": {
+    "message": "MetaMaskが負担"
+  },
   "participateInMetaMetrics": {
     "message": "MetaMetricsに参加"
   },
@@ -4435,6 +4534,9 @@
   "pendingTransactionAlertMessageHyperlink": {
     "message": "トランザクションをキャンセルまたは高速化する方法をご覧ください。",
     "description": "The text for the hyperlink in the pending transaction alert message"
+  },
+  "percentChange": {
+    "message": "変動率"
   },
   "permissionDetails": {
     "message": "アクセス許可の詳細"
@@ -4854,6 +4956,12 @@
   "pushNotificationPositionLiquidatedTitle": {
     "message": "ポジションが清算されました"
   },
+  "pushNotificationShieldLearnMoreCta": {
+    "message": "詳細を表示"
+  },
+  "pushNotificationShieldUpdatePaymentCta": {
+    "message": "支払情報を更新"
+  },
   "pushNotificationStopLossTriggeredDescriptionLong": {
     "message": "$1のロングがストップロスでクローズされました。",
     "description": "$1 is the asset symbol"
@@ -5266,6 +5374,124 @@
   "reward": {
     "message": "報酬"
   },
+  "rewardsAuthFailDescription": {
+    "message": "このアカウントをリワードプログラムで認証中に不明なエラーが発生しました。後でもう一度お試しください。"
+  },
+  "rewardsAuthFailTitle": {
+    "message": "不明なエラーです。"
+  },
+  "rewardsErrorMessagesAccountAlreadyRegistered": {
+    "message": "このアカウントは別のリワードプロファイルにすでに登録されています。続行するにはアカウントを切り替えてください。"
+  },
+  "rewardsErrorMessagesFailedToClaimReward": {
+    "message": "リワードの請求に失敗しました。しばらくしてからもう一度お試しください。"
+  },
+  "rewardsErrorMessagesRequestRejected": {
+    "message": "リクエストを拒否しました。"
+  },
+  "rewardsErrorMessagesServiceNotAvailable": {
+    "message": "現在サービスをご利用いただけません。しばらくしてからもう一度お試しください。"
+  },
+  "rewardsErrorMessagesSomethingWentWrong": {
+    "message": "問題が発生しました。しばらくしてからもう一度お試しください。"
+  },
+  "rewardsLinkAccount": {
+    "message": "アカウントを追加"
+  },
+  "rewardsLinkAccountError": {
+    "message": "アカウントの追加に失敗しました"
+  },
+  "rewardsOnboardingIntroDescription": {
+    "message": "アクティビティに対してポイントを獲得できます。\nレベルを上げてリワードのロックを解除しましょう。"
+  },
+  "rewardsOnboardingIntroGeoCheckFailedDescription": {
+    "message": "お住いの国でリワードプログラムへのオプトインが許可されているかを確認できません。接続を確認して、もう一度お試しください。"
+  },
+  "rewardsOnboardingIntroGeoCheckFailedTitle": {
+    "message": "オプトインの資格を確認できません"
+  },
+  "rewardsOnboardingIntroGeoCheckRetry": {
+    "message": "再試行"
+  },
+  "rewardsOnboardingIntroHardwareWalletDescription": {
+    "message": "ハードウェアウォレットのアカウントは、現時点ではリワードを受け取ることはできません。別のアカウントに切り替えてください。"
+  },
+  "rewardsOnboardingIntroHardwareWalletTitle": {
+    "message": "サポートされていないアカウントです"
+  },
+  "rewardsOnboardingIntroRewardsAuthFailRetry": {
+    "message": "再試行"
+  },
+  "rewardsOnboardingIntroStepConfirm": {
+    "message": "250ポイントを請求する"
+  },
+  "rewardsOnboardingIntroStepSkip": {
+    "message": "後で"
+  },
+  "rewardsOnboardingIntroTitle": {
+    "message": "リワードのご紹介"
+  },
+  "rewardsOnboardingIntroUnsupportedRegionDescription": {
+    "message": "現在、お住まいの地域ではリワードをご利用いただけません。対象地域を拡大中ですので、後日再度ご確認ください。"
+  },
+  "rewardsOnboardingIntroUnsupportedRegionTitle": {
+    "message": "未対応の地域です"
+  },
+  "rewardsOnboardingStep1Description": {
+    "message": "MetaMaskでスワップやパーペチュアル取引を行うたびに、リワード獲得のチャンスが近づきます。アカウントを追加して、ポイントが貯まる様子をご覧ください。"
+  },
+  "rewardsOnboardingStep1Title": {
+    "message": "すべての取引でポイントを獲得"
+  },
+  "rewardsOnboardingStep2Description": {
+    "message": "ポイント数のマイルストーンに達すると、パーペチュアル手数料50%オフ、限定トークン、無料のMetaMaskメタルカードといった特典を獲得できます。"
+  },
+  "rewardsOnboardingStep2Title": {
+    "message": "レベルアップして特典を増やそう"
+  },
+  "rewardsOnboardingStep4LegalDisclaimer2": {
+    "message": "補足利用規約およびプライバシー通知"
+  },
+  "rewardsOnboardingStep4LegalDisclaimer3": {
+    "message": "オンチェーンアクティビティを自動的に追跡し、リワードを付与します –"
+  },
+  "rewardsOnboardingStep4LegalDisclaimer4": {
+    "message": "詳細"
+  },
+  "rewardsOnboardingStep4OptInError": {
+    "message": "オプトインに失敗しました"
+  },
+  "rewardsOnboardingStep4ReferralCodeError": {
+    "message": "無効な紹介コード"
+  },
+  "rewardsOnboardingStep4ReferralCodeInput": {
+    "message": "紹介コードを使って250ポイントを獲得"
+  },
+  "rewardsOnboardingStep4ReferralCodePlaceholder": {
+    "message": "紹介コード（オプション）"
+  },
+  "rewardsOnboardingStep4ReferralCodeUnknownError": {
+    "message": "紹介コードを検証できませんでした."
+  },
+  "rewardsOnboardingStep4ReferralCodeUnknownErrorDescription": {
+    "message": "接続を確認して、もう一度お試しください。"
+  },
+  "rewardsOnboardingStep4Title": {
+    "message": "サインアップすると250ポイントを獲得できます！"
+  },
+  "rewardsOnboardingStep4TitleWithReferralCode": {
+    "message": "コードを使ってサインアップすると500ポイントを獲得できます！"
+  },
+  "rewardsOnboardingStepConfirm": {
+    "message": "次へ"
+  },
+  "rewardsOnboardingStepOptIn": {
+    "message": "ポイントを請求する"
+  },
+  "rewardsPointsBalance_couldntLoad": {
+    "message": "読み込ませんでした",
+    "description": "Text shown when points balance couldn't be loaded"
+  },
   "rpcNameOptional": {
     "message": "RPC名 (オプション)"
   },
@@ -5584,14 +5810,53 @@
   "shieldClaimInvalidEmail": {
     "message": "有効なメールアドレスを入力してください"
   },
+  "shieldClaimNetwork": {
+    "message": "ネットワークを選択"
+  },
+  "shieldClaimPersonalDetails": {
+    "message": "個人情報"
+  },
   "shieldClaimReimbursementWalletAddress": {
     "message": "返金用ウォレットアドレス"
   },
   "shieldClaimReimbursementWalletAddressHelpText": {
     "message": "このウォレットが侵害されていないことをご確認ください。"
   },
+  "shieldClaimSelectAccount": {
+    "message": "アカウントを選択します"
+  },
+  "shieldClaimSelectNetwork": {
+    "message": "ネットワークを選択"
+  },
+  "shieldClaimStatusApproved": {
+    "message": "承認済み"
+  },
+  "shieldClaimStatusRejected": {
+    "message": "拒否されました"
+  },
+  "shieldClaimStatusSubmitted": {
+    "message": "送信済み"
+  },
   "shieldClaimSubmit": {
     "message": "請求を送信"
+  },
+  "shieldCoverageAlertMessagePausedAcknowledgeButton": {
+    "message": "支払方法を更新"
+  },
+  "shieldPaused": {
+    "message": "一時停止中"
+  },
+  "shieldPaymentPausedActionCardPayment": {
+    "message": "更新"
+  },
+  "shieldPaymentPausedActionCryptoPayment": {
+    "message": "更新"
+  },
+  "shieldPaymentPausedActionUnexpectedError": {
+    "message": "表示"
+  },
+  "shieldPaymentPausedDescriptionUnexpectedError": {
+    "message": "予期せぬエラーが発生しました。"
   },
   "shieldPlanAnnual": {
     "message": "年間"
@@ -5610,6 +5875,10 @@
     "message": "月額$1",
     "description": "The $1 is the price of the monthly plan"
   },
+  "shieldPlanNoFundsOneToken": {
+    "message": "$1不足",
+    "description": "$1 is the one token supported"
+  },
   "shieldPlanPayWith": {
     "message": "支払方法:"
   },
@@ -5622,6 +5891,9 @@
   },
   "shieldPlanPaymentTitle": {
     "message": "支払方法を変更"
+  },
+  "shieldPlanSave": {
+    "message": "17％割引"
   },
   "shieldPlanSelectToken": {
     "message": "トークンの選択"
@@ -5657,8 +5929,17 @@
   "shieldTxMembershipBillingDetailsPaymentMethod": {
     "message": "支払方法"
   },
+  "shieldTxMembershipErrorPausedCardAction": {
+    "message": "カード情報を更新"
+  },
   "shieldTxMembershipErrorPausedCardTooltip": {
     "message": "支払いが拒否されました。補償を継続するには、支払方法を更新してください。"
+  },
+  "shieldTxMembershipErrorPausedCryptoInsufficientFundsAction": {
+    "message": "資金を追加"
+  },
+  "shieldTxMembershipErrorPausedUnexpectedAction": {
+    "message": "サポートへのお問い合わせ"
   },
   "shieldTxMembershipErrorUpdateCard": {
     "message": "カード情報を更新"
@@ -5774,6 +6055,9 @@
   "simulationDetailsOutgoingHeading": {
     "message": "送る"
   },
+  "simulationDetailsOutgoingHeadingSent": {
+    "message": "送金額:"
+  },
   "simulationDetailsRevokeSetApprovalForAllDesc": {
     "message": "別のユーザーに付与したアカウントからのNFT引き出し許可を取り消そうとしています。"
   },
@@ -5846,6 +6130,9 @@
   },
   "siweURI": {
     "message": "URL"
+  },
+  "skip": {
+    "message": "スキップ"
   },
   "skipDeepLinkInterstitial": {
     "message": "ディープリンクを開く際にインタースティシャル画面を表示しない"
@@ -6218,6 +6505,9 @@
   },
   "spendingCaps": {
     "message": "使用上限"
+  },
+  "srpAlreadyImportedError": {
+    "message": "このシークレットリカバリーフレーズはすでにインポートされています。"
   },
   "srpDetailsDescription": {
     "message": "シークレットリカバリーフレーズとは、暗号資産ウォレットへのアクセスや管理を可能にする一連の単語のことで、シードフレーズまたはニーモニックとも呼ばれます。お持ちのウォレットをMetaMaskに移行するには、このフレーズが必要です。"
@@ -6662,6 +6952,9 @@
   "swapGasFeesSplit": {
     "message": "前の画面のガス代は、この2つのトランザクションに分けられています。"
   },
+  "swapGasFeesSponsored": {
+    "message": "MetaMaskが負担"
+  },
   "swapGasFeesSummary": {
     "message": "ガス代は、$1ネットワークでトランザクションを処理するクリプトマイナーに支払われます。MetaMaskはガス代から利益を得ません。",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
@@ -7035,6 +7328,10 @@
   "tokenContractError": {
     "message": "このアドレスはトークンコントラクトアドレスです。このアドレスにトークンを送ると、トークンが失われます。"
   },
+  "tokenCount": {
+    "message": "トークン",
+    "description": "is number of tokens used for token transfers (singular form)"
+  },
   "tokenDecimal": {
     "message": "トークンの小数桁数"
   },
@@ -7075,6 +7372,10 @@
   },
   "tokens": {
     "message": "トークン"
+  },
+  "tokensCount": {
+    "message": "トークン",
+    "description": "is the count of tokens used for token transfers (plural form)"
   },
   "tokensFoundTitle": {
     "message": "$1種類の新しいトークンが見つかりました",
@@ -7201,6 +7502,18 @@
   },
   "transferRequest": {
     "message": "送金リクエスト"
+  },
+  "tronBandwidth": {
+    "message": "帯域幅"
+  },
+  "tronDailyResources": {
+    "message": "1日のリソース"
+  },
+  "tronDailyResourcesDescription": {
+    "message": "これは、ステーキングされたTRXに基づく1日の利用可能量です。1日600帯域幅を無料で利用できます。"
+  },
+  "tronEnergy": {
+    "message": "エネルギー"
   },
   "troubleConnectingToLedgerU2FOnFirefox": {
     "message": "Ledgerの接続に問題が発生しました。$1",
@@ -7513,6 +7826,9 @@
   "visitWebSite": {
     "message": "弊社Webサイトにアクセス"
   },
+  "volume": {
+    "message": "取引量"
+  },
   "wallet": {
     "message": "ウォレット"
   },
@@ -7580,6 +7896,9 @@
   "websites": {
     "message": "Webサイト",
     "description": "Used in the 'permission_rpc' message."
+  },
+  "weekly": {
+    "message": "週次"
   },
   "welcomeBack": {
     "message": "お帰りなさい"
