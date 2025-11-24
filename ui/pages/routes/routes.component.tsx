@@ -1134,12 +1134,13 @@ export default function Routes() {
             component={ShieldPlan}
             layout={LegacyLayout}
           />
-          <RouteWithLayout
-            authenticated
-            path={REWARDS_ROUTE}
-            component={RewardsPage}
-            layout={RootLayout}
-          />
+          <RouteWithLayout path={REWARDS_ROUTE} layout={RootLayout}>
+            {createV5CompatRoute(RewardsPage, {
+              wrapper: AuthenticatedV5Compat,
+              includeNavigate: true,
+              includeLocation: true,
+            })}
+          </RouteWithLayout>
           <RouteWithLayout
             authenticated
             path={DEFAULT_ROUTE}
